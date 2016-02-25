@@ -10,9 +10,11 @@ Author URI: http://www.lmhtechnology.com/
 License: GPL2
 */
 
+// @TODO Create TOC
+
 
 /********************************************************************************************
-* lmh_attorney_practice_areas Post Type
+ * lmh_attorney_practice_areas Post Type @TODO Move Post Type declarations to separate file
 *********************************************************************************************/
 class lmh_attorney_practice_areas {
 
@@ -65,7 +67,7 @@ $lmh_attorney_practice_areas = new lmh_attorney_practice_areas();
 
 
 /*********************************************************************************************
- * Helper function to return an array of Practice Area Posts
+ * Helper function to return an array of Practice Area  @TODO Move Helper Functions to separate file
  *********************************************************************************************/
 function lmh_pa_retrieve_practice_area_posts(){
 	$practice_area_args = array(
